@@ -1,0 +1,24 @@
+IF:
+  n_estimators: 200
+  max_samples: 0.8
+  contamination: 0.5
+  bootstrap: True
+
+LOF:
+  n_neighbors: 4
+  contamination: 0.5
+  novelty: True
+
+DBSCAN:
+  eps: 0.001
+  min_samples: 3
+
+KMeans:
+  n_clusters: 9
+  n_init: 20
+
+OCSVM:
+  kernel: poly
+  degree: 3
+  gamma: auto
+  nu: 0.5
